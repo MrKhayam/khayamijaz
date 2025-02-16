@@ -13,7 +13,7 @@ const page = () => {
         <div
           className={`sidebar ${
             nav ? "translate-x-0" : "translate-x-[-100%]"
-          } absolute h-full w-[300px] bg-black p-10 transition-all duration-300`}
+          } absolute h-screen w-[300px] bg-black p-10 transition-all duration-300`}
         >
           <IoClose
             onClick={() => setNav(false)}
